@@ -7,6 +7,11 @@ import Button from 'primevue/button';
 import Toast from 'primevue/toast';
 import ToastService from 'primevue/toastservice';
 
+import DataView from 'primevue/dataview';
+import DataViewLayoutOptions from 'primevue/dataviewlayoutoptions'   // optional
+import Tag from 'primevue/tag';
+import Rating from 'primevue/rating';
+
 // scss & css style
 import './assets/scss/_cssReset.scss';
 import 'primeflex/primeflex.scss';
@@ -29,4 +34,10 @@ app.use(ToastService);
 app.component('InputTextUI', InputText);
 app.component('ToastUI', Toast);
 app.component('ButtonUI',Button);
+app.component('DataViewUI', DataView);
+app.component('DataViewLayoutOptions', DataViewLayoutOptions);
+app.component('TagUI', Tag);
+app.component('RatingUI', Rating);
+
+
 app.mount('#app');
