@@ -8,6 +8,7 @@ import Toast from 'primevue/toast';
 import ToastService from 'primevue/toastservice';
 
 // scss & css style
+import './assets/scss/_cssReset.scss';
 import 'primeflex/primeflex.scss';
 /** primeflex
  * Doc: https://www.primefaces.org/primeflex/setup

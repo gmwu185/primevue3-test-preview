@@ -51,7 +51,7 @@ const greet = () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  // min-height: 100vh;
   &__inter {
     background-color: red;
   }
