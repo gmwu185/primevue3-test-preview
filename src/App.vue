@@ -10,6 +10,9 @@
       icon="pi pi-user"
     >
     </ButtonUI>
+    <div class="container__inter">
+      container__inter
+    </div>
   </div>
 </template>
 
@@ -29,11 +32,14 @@ const greet = () => {
 };
 </script>
 
-<style scoped>
+<style lang="scss">
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  &__inter {
+    background-color: red;
+  }
 }
 </style>
